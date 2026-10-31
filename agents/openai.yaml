@@ -1,0 +1,7 @@
+interface:
+  display_name: "跨对话修复监视"
+  short_description: "每三分钟监视指定 Codex 对话，独立核验修复，按授权反馈漏洞并同步需求"
+  default_prompt: "使用 $thread-supervisor 监视我指定的 Codex 对话，每三分钟检查，按我授权的范围反馈问题并复查修复。"
+policy:
+  allow_implicit_invocation: true
+
